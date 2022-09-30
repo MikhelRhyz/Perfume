@@ -1,0 +1,76 @@
+/**************************** HTML Tags ************************************/
+body {
+  background: hsl(30, 38%, 92%);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, span {
+  font-family: 'Fraunces', serif;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+span{
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+}
+
+del{
+  position: relative;
+  left: 8px;
+  bottom: 8px;
+  font-size: .75rem;
+}
+
+button{
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+/**************************** Class Tags ************************************/
+.container {
+  width: 45%;
+  background-color: white;
+  margin: 100px auto;
+  display: table;
+  position: relative;
+  height: 426px;
+  border-radius: 15px;
+}
+
+.right, .left {
+  width: 50%;
+  display: table-cell;
+}
+
+.left {
+  position: absolute;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cart{
+  width: 8%;
+  position: relative;
+  top:5px;
+  right: 5px;
+}
+
+.perfume {
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+}
